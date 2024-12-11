@@ -1,6 +1,4 @@
-const { get, add } = require('../../UTA-VIRT-FSF-PT-06-2024-U-LOLC/UTA-VIRT-FSF-PT-06-2024-U-LOLC/18-NoSQL/01-Activities/26-Stu_CRUD-Subdoc/Solved/models/Tag');
 const {Thought, User} = require('../models');
-const { getUsers } = require('./userController');
 
 module.exports = {
 

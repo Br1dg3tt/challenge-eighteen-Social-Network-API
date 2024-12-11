@@ -1,4 +1,3 @@
-const { get } = require('mongoose');
 const { User, Thought } = require('../models');
 
 module.exports = {
@@ -31,7 +30,7 @@ module.exports = {
         try {
             const user = await User.create(req.body);
             res.json(user);
-        } catch (err) {
+       } catch (err) {
             res.status(500).json(err);
         }
     },

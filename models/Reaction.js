@@ -1,5 +1,4 @@
 const { Schema, Types } = require('mongoose');
-const reactionSchema = require('./Reaction');
 
 const reactionSchema = new Schema(
     {
@@ -13,9 +12,15 @@ const reactionSchema = new Schema(
             minLength: 1,
             maxlength: 280,
         },
+        username: {
+            type: String,
+            required: true,
+        },
         createdAt: {
             type: Date,
             default: Date.now,
         }
     }
 );
+
+module.exports = reactionSchema;

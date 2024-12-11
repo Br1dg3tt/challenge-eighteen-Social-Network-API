@@ -4,25 +4,25 @@
     "description": "An API for Socal Networking",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "seed": "node utils/index"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "seed": "node utils/index"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^7.0.2"
+        "express": "^4.17.1",
+        "mongoose": "^7.8.3"
     },
     "devDependencies": {
-      "nodemon": "^2.0.9"
+        "nodemon": "^2.0.9"
     },
     "repository": {
-      "type": "git",
-      "url": ""
+        "type": "git",
+        "url": ""
     },
     "author": "Br1dg3tt",
     "license": "MIT",
     "bugs": {
-      "url": ""
+        "url": ""
     },
     "homepage": ""
-  }
+}
